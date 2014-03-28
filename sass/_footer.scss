@@ -1,0 +1,151 @@
+.footer{
+  border-top: 1px solid #e6e6e6;
+  position: relative;
+  padding: 21px 0 0;
+  margin: 25px 0 0;
+  text-align: justify;
+  &:after{
+    background: url("../images/dice-icon.png") no-repeat;
+    width: 36px;
+    height: 28px;
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    margin-left: -18px;
+  }
+  span{
+    color: #898989;
+    display: inline-block;
+  }
+  a{
+    display: inline-block;
+    margin: 0 0 13px;
+  }
+  p{
+    margin: 0 0 14px;
+  }
+}
+.footer__item{
+  width: 48%;
+}
+
+
+@media screen and (min-device-width:1357px) {
+  body{
+    background: red;
+  }
+}
+@media screen and (max-device-width:1357px) {
+  .top{
+    a{
+      position: absolute;
+      width: 335px;
+    }
+  }
+}
+@media only screen and (max-width: 1357px){
+  .top{
+    a{
+      position: absolute;
+      width: 335px;
+    }
+  }
+}
+@media only screen and (min-width: 1293px){
+  .letters__in li{
+    width: 22.8%;
+  }
+}
+@media only screen and (min-width: 1800px){
+  .letters__in li{
+    width: 17.8%;
+  }
+}
+@media only screen and (min-width: 1285px){
+  .auto-serfing-list li, .serfing-list li{
+    width: 23%;
+  }
+}
+@media only screen and (min-width: 1567px){
+  .auto-serfing-list li, .serfing-list li{
+    width: 18%;
+  }
+}
+@media screen and (max-height:1000px) {
+  body{
+    background: yellow;
+  }
+}
+@media screen and (min-height:1000px) {
+  body{
+    background: yellow;
+    overflow-x: scroll;
+  }
+  .left-menu{
+    a{
+      position: absolute;
+      height: 25% !important;
+      margin-top: 100px;
+    }
+  }
+  .right-menu{
+    a{
+      position: absolute;
+      height: 25% !important;
+      margin-top: 100px;
+    }
+  }
+
+
+}
+@media screen and (max-width:1357px) {
+  body{
+    background: green;
+  }
+  .left-menu{
+    overflow: hidden;
+    a{
+      position: absolute;
+      height: 22% !important;
+      margin-top: 100px;
+    }
+  }
+  .right-menu{
+    a{
+      position: absolute;
+      height: 22% !important;
+      margin-top: 100px;
+    }
+  }
+}
+@media screen and (max-width:1382px) {
+  .call-back-text{
+    width: 70%;
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @media screen and (max-width:1357px) {
+    body{
+      background: green;
+    }
+    .left-menu{
+      overflow: hidden;
+      a{
+        position: absolute;
+        height: 21.6% !important;
+        margin-top: 100px;
+      }
+    }
+    .right-menu{
+      a{
+        position: absolute;
+        height: 21.6% !important;
+        margin-top: 100px;
+      }
+    }
+  }
+}
+
+

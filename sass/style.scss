@@ -1,0 +1,79 @@
+
+@import "blankwork";
+@import "settings";
+html{
+  background: #fff;
+  min-height: 100%;
+}
+body {
+  min-width: 1000px;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 1000px;
+  font-size: 13px;
+  line-height: 18px;
+
+}
+.site{
+  position: relative;
+  min-width: 1000px;
+  min-height: 1000px;
+  height: 100%;
+  overflow: hidden;
+  @include box-sizing(border-box);
+  display: table;
+  padding: 100px;
+  @include box-sizing(border-box);
+
+}
+.wrapper{
+  margin: 100px;
+  position: relative;
+  z-index: 10;
+  @include box-sizing(border-box);
+  padding: 25px;
+  background-color: #fff;
+  @include box-shadow(0 0 20px rgba(0,0,0,.5));
+  min-height: 100%;
+  display: table-cell;
+}
+h2{
+  color: #333;
+  font-size: 32px;
+  text-align: center;
+  margin: 0 0 44px 0;
+  span{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 21px;
+  }
+}
+h3{
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+h4{
+  color: #333;
+  font-size: 15px;
+  margin: 0 0 20px;
+  font-weight: 600;
+
+}
+
+/***************************************************/
+/*      header
+/***************************************************/
+@import "header";
+
+/***************************************************/
+/*      content
+/***************************************************/
+@import "content";
+
+/***************************************************/
+/*      footer
+/***************************************************/
+@import "footer";
